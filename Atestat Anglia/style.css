@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Oswald&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #90e0ef;
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    border-left: 10px solid rgb(42, 42, 42);
+    border-right: 10px solid rgb(42, 42, 42);
+    width: 60%;
+    height: 1600px;
+    background-color: rgb(246, 246, 246);
+    display: flex;
+    flex-direction: column;
+}
+
+.banner{
+    width: 100%;
+    height: 409px;
+    display: flex;
+    border-bottom: 10px solid rgb(42, 42, 42);
+    background-image: url("galerie/banner.jpg");
+    background-size: cover;
+}
+
+
+
+.butoane{
+    width: 50%;
+    height: 60px;
+    margin-left: 20px;
+    margin-top: 10px;
+    display: flex;
+    border-bottom: 8px solid rgb(42, 42, 42);
+    
+}
+
+.btn{
+    margin-right: 30px;
+    cursor: pointer;
+    width: 90px;
+    height: 45px;
+    border: 2px solid rgb(35, 35, 35);
+    border-radius: 10px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 800;
+}
+
+.btn:hover{
+    background-color: #0466c8;
+    border: none;
+    color: white;
+}
+
+.title{
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 320px;
+    height: 120px;
+    background-color: rgb(27, 27, 27);
+    color: white;
+    border-radius: 10px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.elev{
+    display: default;
+    margin-left: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+}
+
+.elev h2{
+    margin-top: -10px;
+    font-size: 20px;
+}
+
+.details{
+    margin-left: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    display: none;
+}
+
+.details p{
+    margin-top: -15px;
+}
+
+.set{
+    display: flex;
+}
+
+.set img{
+    cursor: pointer;
+    margin-left: 30px;
+    margin-top: 20px;
+    width: 400px;
+    transition: transform .2s;
+}
+
+.set img:hover{
+    transform: scale(1.1);
+}
+
+.obiective{
+    display: none;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+
+
+.obiective li{
+   cursor: pointer;
+   list-style: none;
+   margin-left: -10px;
+   
+}
+
+.obiective li:hover{
+    text-decoration: underline solid black;
+}
+
+.obiectiv-info{
+    border-left: 3px solid black;
+    height: 900px;
+    margin-left: 100px;
+    margin-top: 10px;
+
+}
+
+.texte p{
+    margin-left: 10px;
+    max-width: 90%;
+
+}
+.texte{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.texte img{
+    transition: transform .2s;
+    margin-left: 30px;
+    margin-top: 20px;
+    width: 40%;
+    cursor: pointer;
+}
+
+.texte img:hover{
+    transform: scale(1.2);
+}
+
+.texte div{
+    display: flex;
+    align-items: center;
+}
+
+.atractii{
+    display: none;
+}
+
+.atractie-vizibila{
+    display: flex;
+}
+
+.atractie-disparuta{
+    display: none;
+}
+
+.galerie{
+    display: none;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 30px;
+}
+
+.galerie img{
+    cursor: pointer;
+    margin-top: 20px;
+    width: 180px;
+    height: 160px;
+    margin-left: 40px;
+   transition: transform .2s;
+}
+
+.galerie img:hover{
+    transform: scale(1.2);
+}
